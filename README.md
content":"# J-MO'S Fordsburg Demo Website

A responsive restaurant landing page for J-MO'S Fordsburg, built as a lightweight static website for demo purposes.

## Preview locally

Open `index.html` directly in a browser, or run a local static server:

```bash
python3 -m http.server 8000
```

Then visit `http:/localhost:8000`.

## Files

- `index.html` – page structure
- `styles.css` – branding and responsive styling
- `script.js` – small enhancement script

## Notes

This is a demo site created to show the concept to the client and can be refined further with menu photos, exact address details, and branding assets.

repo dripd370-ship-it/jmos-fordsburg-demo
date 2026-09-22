@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="J-MO'S Fordsburg serves delicious flame-grilled chicken, burgers, shish kebabs, and more in Fordsburg."
+    />
+    <title>J-MO'S Fordsburg</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand-block">
+          <div class="brand-mark">J</div>
+          <div>
+            <p class="brand-name">J-MO'S</p>
+            <p class="brand-subtitle">FORDSBURG</p>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#specials">Specials</a>
+          <a href="#hours">Hours</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="cta-button" href="tel:0800127443">Call Now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Deliciously Different</p>
+            <h1>Flame-grilled favorites in the heart of Fordsburg.</h1>
+            <p class="hero-copy">
+              Savor juicy chicken, gourmet burgers, shish kebabs, and comfort food classics
+              prepared fresh every day.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#contact">Visit Us</a>
+              <a class="secondary-btn" href="#specials">Explore Menu</a>
+            </div>
+            <ul class="hero-meta">
+              <li>Breakfast</li>
+              <li>Lunch</li>
+              <li>Dinner</li>
+              <li>Solo dining</li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="mini-card">
+              <span class="label">Popular for</span>
+              <strong>Flame Grilled Chicken</strong>
+            </div>
+            <div class="mini-card accent">
+              <span class="label">Open</span>
+              <strong>Tue–Sun</strong>
+            </div>
+            <div class="mini-card dark">
+              <span class="label">Call</span>
+              <strong>080 012 7443</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container grid-two">
+          <div>
+            <p class="section-tag">About</p>
+            <h2>Fresh flavor, warm atmosphere, and a local favorite feel.</h2>
+          </div>
+          <div>
+            <p>
+              J-MO'S Fordsburg brings together bold South African flavors and a relaxed, casual
+              dining experience. From flame-grilled chicken to loaded burgers and shish kebabs,
+              every dish is made to satisfy cravings and bring people together.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="specials" class="section specials">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Signature Picks</p>
+            <h2>Made for cravings and community.</h2>
+          </div>
+
+          <div class="special-grid">
+            <article class="special-card">
+              <div class="icon">🔥</div>
+              <h3>Flame Grilled Chicken</h3>
+              <p>Succulent, smoky, and perfectly seasoned with a signature finish.</p>
+            </article>
+
+            <article class="special-card">
+              <div class="icon">🍔</div>
+              <h3>Delicious Burgers</h3>
+              <p>Big flavor stacked with juicy patties, fresh toppings, and house-made appeal.</p>
+            </article>
+
+            <article class="special-card">
+              <div class="icon">🥙</div>
+              <h3>Shish Kebabs</h3>
+              <p>Grilled to perfection with rich marination and satisfying bite after bite.</p>
+            </article>
+
+            <article class="special-card">
+              <div class="icon">🍽️</div>
+              <h3>More to Explore</h3>
+              <p>Breakfast, brunch, lunch, dinner, and dessert options for every appetite.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="hours" class="section hours-section">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="section-tag">Hours</p>
+            <h2>Drop in and enjoy your favorite meal.</h2>
+          </div>
+
+          <div class="hours-card">
+            <div class="hours-row">
+              <span>Monday</span>
+              <strong>11:00 AM – 7:00 PM</strong>
+            </div>
+            <div class="hours-row">
+              <span>Tuesday</span>
+              <strong>11:00 AM – 7:00 PM</strong>
+            </div>
+            <div class="hours-row">
+              <span>Wednesday</span>
+              <strong>11:00 AM – 7:00 PM</strong>
+            </div>
+            <div class="hours-row">
+              <span>Thursday</span>
+              <strong>11:00 AM – 7:00 PM</strong>
+            </div>
+            <div class="hours-row">
+              <span>Friday</span>
+              <strong>11:00 AM – 8:00 PM</strong>
+            </div>
+            <div class="hours-row">
+              <span>Saturday</span>
+              <strong>9:00 AM – 8:00 PM</strong>
+            </div>
+            <div class="hours-row">
+              <span>Sunday</span>
+              <strong>11:00 AM – 8:00 PM</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features">
+        <div class="container feature-grid">
+          <div class="feature-box">
+            <p class="section-tag">Accessibility</p>
+            <ul>
+              <li>Wheelchair accessible entrance</li>
+              <li>Wheelchair accessible parking lot</li>
+              <li>Wheelchair accessible seating</li>
+            </ul>
+          </div>
+
+          <div class="feature-box">
+            <p class="section-tag">Dining Options</p>
+            <ul>
+              <li>Breakfast</li>
+              <li>Brunch</li>
+              <li>Lunch</li>
+              <li>Dinner</li>
+              <li>Dessert</li>
+            </ul>
+          </div>
+
+          <div class="feature-box">
+            <p class="section-tag">Amenities</p>
+            <ul>
+              <li>Restroom</li>
+              <li>Good for groups</li>
+              <li>Casual, trendy atmosphere</li>
+            </ul>
+          </div>
+
+          <div class="feature-box">
+            <p class="section-tag">Payments</p>
+            <ul>
+              <li>Credit cards</li>
+              <li>Debit cards</li>
+              <li>NFC mobile payments</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-wrap">
+          <div class="contact-copy">
+            <p class="section-tag">Contact us</p>
+            <h2>Come by, call in, or plan your next visit.</h2>
+            <div class="contact-list">
+              <a href="tel:0800127443">📞 080 012 7443</a>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=J-MO'S+Fordsburg"
+                target="_blank"
+                rel="noreferrer"
+              >
+                📍 Directions
+              </a>
+              <span>📍 Fordsburg, Johannesburg</span>
+            </div>
+          </div>
+
+          <div class="map-card">
+            <iframe
+              title="J-MO'S Fordsburg map"
+              src="https://www.google.com/maps?q=Fordsburg%20Johannesburg&z=13&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="brand-name">J-MO'S</p>
+          <p class="brand-subtitle">FORDSBURG</p>
+        </div>
+        <p>Deliciously different food, made for every craving.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+"},{"content":":root {
+  --brand-red: #cc1d24;
+  --brand-red-dark: #8f1014;
+  --brand-gold: #f7c35f;
+  --brand-cream: #f8f3ea;
+  --dark: #1a1a1a;
+  --text: #2b2b2b;
+  --muted: #666;
+  --white: #ffffff;
+  --shadow: 0 24px 56px rgba(20, 20, 20, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  background: var(--brand-cream);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+.section-tag {
+  margin: 0 0 14px;
+  color: var(--brand-red);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+  font-size: 0.77rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  line-height: 1.08;
+  color: var(--dark);
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 5vw, 5rem);
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: clamp(2.1rem, 4vw, 3.2rem);
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+p {
+  margin-top: 0;
+  font-size: 1.08rem;
+  color: var(--text);
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(26, 26, 26, 0.78);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 82px;
+  gap: 24px;
+}
+
+.brand-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--white);
+}
+
+.brand-mark {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--brand-red), var(--brand-red-dark));
+  color: var(--white);
+  font-size: 1.7rem;
+  font-weight: 800;
+  box-shadow: var(--shadow);
+}
+
+.brand-name,
+.brand-subtitle {
+  margin: 0;
+  color: var(--white);
+  letter-spacing: 0.12em;
+  font-weight: 700;
+}
+
+.brand-name {
+  font-size: 0.9rem;
+}
+
+.brand-subtitle {
+  font-size: 0.7rem;
+  opacity: 0.82;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
+.main-nav a {
+  transition: color 0.2s ease;
+}
+
+.main-nav a:hover,
+.main-nav a:focus-visible {
+  color: var(--white);
+}
+
+.cta-button,
+.primary-btn,
+.secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-button,
+.primary-btn {
+  background: linear-gradient(135deg, var(--brand-red), var(--brand-red-dark));
+  color: var(--white);
+  box-shadow: 0 16px 28px rgba(204, 29, 36, 0.25);
+}
+
+.cta-button {
+  padding: 12px 22px;
+}
+
+.primary-btn,
+.secondary-btn {
+  min-width: 170px;
+  padding: 15px 22px;
+}
+
+.secondary-btn {
+  background: rgba(255, 255, 255, 0.18);
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.cta-button:hover,
+.primary-btn:hover,
+.secondary-btn:hover {
+  transform: translateY(-2px);
+}
+
+.hero {
+  position: relative;
+  min-height: 760px;
+  display: grid;
+  place-items: center;
+  background-image: url("https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(16, 16, 16, 0.82), rgba(16, 16, 16, 0.48));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 32px;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.eyebrow {
+  color: var(--brand-gold);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-bottom: 18px;
+  font-size: 0.72rem;
+}
+
+.hero-text {
+  color: var(--white);
+}
+
+.hero-text h1,
+.hero-text p,
+.hero-text li,
+.hero-text .eyebrow {
+  color: var(--white);
+}
+
+.hero-copy {
+  max-width: 620px;
+  font-size: 1.15rem;
+  margin-bottom: 28px;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-weight: 600;
+}
+
+.hero-meta li {
+  position: relative;
+}
+
+.hero-meta li + li::before {
+  content: "•";
+  margin-right: 18px;
+  color: var(--brand-gold);
+}
+
+.hero-card {
+  display: grid;
+  gap: 18px;
+  justify-self: end;
+  width: min(100%, 330px);
+}
+
+.mini-card {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 22px;
+  padding: 24px 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+}
+
+.mini-card.accent {
+  background: rgba(247, 195, 95, 0.18);
+}
+
+.mini-card.dark {
+  background: rgba(20, 20, 20, 0.4);
+}
+
+.label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+  opacity: 0.82;
+  color: rgba(255, 255, 255, 0.82);
+  margin-bottom: 8px;
+}
+
+.mini-card strong {
+  display: block;
+  color: var(--white);
+  font-size: 1.25rem;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.specials {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.section-heading {
+  margin-bottom: 28px;
+}
+
+.section-heading.center {
+  text-align: center;
+}
+
+.special-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.special-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(26, 26, 26, 0.06);
+  border-radius: 22px;
+  padding: 28px 22px;
+  box-shadow: 0 10px 26px rgba(20, 20, 20, 0.05);
+}
+
+.icon {
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(204, 29, 36, 0.14), rgba(247, 195, 95, 0.2));
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+}
+
+.hours-section {
+  background: linear-gradient(180deg, rgba(204, 29, 36, 0.04), rgba(247, 195, 95, 0.08));
+}
+
+.hours-card {
+  max-width: 780px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hours-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 28px;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.08);
+  font-size: 1.08rem;
+}
+
+.hours-row:last-child {
+  border-bottom: none;
+}
+
+.hours-row span {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.hours-row strong {
+  color: var(--dark);
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.feature-box {
+  background: var(--white);
+  border-radius: 24px;
+  padding: 30px 26px;
+  box-shadow: 0 14px 30px rgba(20, 20, 20, 0.05);
+}
+
+.feature-box ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+
+.feature-box li + li {
+  margin-top: 8px;
+}
+
+.contact-wrap {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 28px;
+  align-items: center;
+}
+
+.contact-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+.contact-list a,
+.contact-list span {
+  color: var(--dark);
+}
+
+.map-card {
+  border-radius: 28px;
+  overflow: hidden;
+  min-height: 380px;
+  box-shadow: var(--shadow);
+}
+
+.map-card iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 380px;
+  border: 0;
+}
+
+.footer {
+  background: #111111;
+  color: rgba(255, 255, 255, 0.84);
+  padding: 28px 0;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footer .brand-name,
+.footer .brand-subtitle {
+  color: var(--white);
+}
+
+@media (max-width: 900px) {
+  .main-nav {
+    display: none;
+  }
+
+  .hero-content,
+  .grid-two,
+  .contact-wrap,
+  .special-grid,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-card {
+    justify-self: stretch;
+  }
+
+  .special-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 72px 0;
+  }
+
+  .cta-button {
+    display: none;
+  }
+
+  .special-grid,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hours-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero {
+    min-height: 640px;
+  }
+
+  .hero-content {
+    padding: 62px 0;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+"},{"content":"document.addEventListener("DOMContentLoaded", () => {
+  const year = new Date().getFullYear();
+  const footerText = document.querySelector(".footer p:last-child");
+
+  if (footerText && !footerText.dataset.yearSet) {
+    footerText.dataset.yearSet = "true";
+    footerText.textContent = `Deliciously different food, made for every craving. © ${year}`;
+  }
+});
+"},{"path":"README.md
